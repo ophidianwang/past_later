@@ -17,13 +17,13 @@ function clearAll(){
 //basic menu
 chrome.contextMenus.create({
 	"id":"paste_later_root",
-	"title": '貼上工具ヽ(✿ﾟ▽ﾟ)ノ',
+	"title": 'choose to pasteヽ(✿ﾟ▽ﾟ)ノ',
 	"contexts": ['all']
 });
 chrome.contextMenus.create({
 	"id":"paste_clear",
 	"parentId":"paste_later_root",
-	"title": '清空紀錄',
+	"title": 'clear records',
 	"contexts": ['all'],
 	"onclick": clearAll
 });
