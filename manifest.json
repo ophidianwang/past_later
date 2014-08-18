@@ -1,0 +1,25 @@
+﻿{
+	"manifest_version": 2,
+	"name": "paste_later",
+	"version": "0.0.1",
+	"icons": {
+		"16": "icon/copy-16.png",
+	    "32": "icon/copy-32.png",
+	    "48": "icon/copy-48.png",
+	    "128": "icon/copy-128.png"
+   	},
+	"background": { 
+		"scripts": [	"jquery-2.0.0.min.js",
+						"background/background.js"
+						]
+	},
+	"permissions" : [	"tabs",
+						"contextMenus"
+	],
+	"content_scripts":[{	"run_at":"document_end",
+							"matches":["<all_urls>"],
+							"js":[	"jquery-2.0.0.min.js",
+									"content/content_script.js"
+									]
+						}]
+}
