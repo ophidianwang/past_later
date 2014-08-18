@@ -1,4 +1,6 @@
-
+/*
+	this is background.js working at chrome's background environment
+*/
 //basic variables
 
 var recordCount = 0;

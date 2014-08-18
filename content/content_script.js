@@ -1,4 +1,8 @@
 
+/*
+	this is content_script.js which would be insert into web page
+*/
+
 //basic member
 var lastTimeStamp = 0;
 
