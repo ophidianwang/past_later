@@ -105,3 +105,22 @@ function listenManager(message, sender, response){
 
 }
 chrome.runtime.onMessage.addListener(listenManager);
+
+
+function connectListener(port){
+	//console.log("Connected .....");
+	port.onMessage.addListener(function(msg){
+		//console.log(msg);
+		switch(msg.func){
+			case 'list':
+				port.postMessage(recordStorage);
+				break;
+			case 'paste':
+				pasteRequest({"menuItemId":msg.key});
+				break;
+			default:
+				alert('background default:' + message.func);
+		}		
+	});
+}
+chrome.runtime.onConnect.addListener(connectListener);

@@ -27,7 +27,7 @@ function copyListener(copyEvent){
 
 	//send message to background
 	var selected = window.getSelection().toString();
-	if(selected.length > 256){
+	if(selected.length > 512){
 		console.log('selectedString is too long!');
 		return;
 	}
