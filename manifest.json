@@ -1,7 +1,11 @@
 ﻿{
 	"manifest_version": 2,
 	"name": "paste_later",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"browser_action": {
+	    "default_icon": "icon/copy-128.png",
+	    "default_popup": "admin/manual.html"
+	},
 	"icons": {
 		"16": "icon/copy-16.png",
 	    "32": "icon/copy-32.png",
