@@ -12,6 +12,16 @@
 	    "48": "icon/copy-48.png",
 	    "128": "icon/copy-128.png"
    	},
+   	"commands": {
+        "_execute_browser_action": {
+			"suggested_key": {
+				"windows": "Ctrl+Shift+V",
+				"mac": "Command+Shift+V",
+				"chromeos": "Ctrl+Shift+V",
+				"linux": "Ctrl+Shift+V"
+            }
+        }
+    },
 	"background": { 
 		"scripts": [	"jquery-2.0.0.min.js",
 						"background/background.js"
