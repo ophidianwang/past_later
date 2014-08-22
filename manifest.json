@@ -1,6 +1,6 @@
 ﻿{
 	"manifest_version": 2,
-	"name": "paste_later",
+	"name": "Paste Later",
 	"version": "0.0.2",
 	"browser_action": {
 	    "default_icon": "icon/copy-white-128.png",

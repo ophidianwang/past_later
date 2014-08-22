@@ -16,7 +16,7 @@ A. How paste_later works:
 
 B. Install manual for non git user:
 
-1. Download paste_later.zip, and extract it into directory.(stable version recommended)
+1. Download paste_later.zip, and extract it into directory.
 2. In chrome, go to "chrome://extensions". (or option->tools->extensions)
 3. Check the developer mode option(top right).
 4. Click "Load unpacked extension" button(top left).
@@ -28,11 +28,10 @@ B. Install manual for non git user:
 C. Install manual for git user:
 
 1. Clone this repo.
-2. Checkout to branch stable.
-3. In chrome, go to "chrome://extensions". (or option->tools->extensions)
-4. Check the developer mode option(top right).
-5. Click "Load unpacked extension" button(top left).
-6. Choose "paste_later" directory, and confirm.
-7. DONE.
+2. In chrome, go to "chrome://extensions". (or option->tools->extensions)
+3. Check the developer mode option(top right).
+4. Click "Load unpacked extension" button(top left).
+5. Choose "paste_later" directory, and confirm.
+6. DONE.
 
 ===========
