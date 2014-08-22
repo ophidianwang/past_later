@@ -3,14 +3,14 @@
 	"name": "paste_later",
 	"version": "0.0.2",
 	"browser_action": {
-	    "default_icon": "icon/copy-128.png",
+	    "default_icon": "icon/copy-white-128.png",
 	    "default_popup": "admin/manual.html"
 	},
 	"icons": {
-		"16": "icon/copy-16.png",
-	    "32": "icon/copy-32.png",
-	    "48": "icon/copy-48.png",
-	    "128": "icon/copy-128.png"
+		"16": "icon/copy-white-16.png",
+	    "32": "icon/copy-white-32.png",
+	    "48": "icon/copy-white-48.png",
+	    "128": "icon/copy-white-128.png"
    	},
    	"commands": {
         "_execute_browser_action": {
